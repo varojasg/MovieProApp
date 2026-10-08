@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    //NEW
     alias(libs.plugins.ksp)
 }
 
@@ -51,6 +52,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
+    //NEW
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.landscapist.glide)
