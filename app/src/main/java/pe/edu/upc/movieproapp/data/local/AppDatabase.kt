@@ -1,5 +1,6 @@
 package pe.edu.upc.movieproapp.data.local
 
+import pe.edu.upc.movieproapp.data.model.FavoriteMovieEntity
 import androidx.room.Database
 import androidx.room.RoomDatabase
 
